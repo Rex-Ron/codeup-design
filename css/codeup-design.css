@@ -2,9 +2,17 @@
     background-color: lightgray;
 }
 #logo {
-    width: 105px;
-    height: 105px;
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    z-index: 1000;
+    position: absolute;
+    top: 8px;
+    left: 115px;
+}
 
+.codeup-design-row {
+    padding-top: 80px;
 }
 
 h1, .nav-link {
@@ -15,11 +23,14 @@ h1, .nav-link {
     font-family: 'Anton', sans-serif;
 }
 
-/*.white-space {*/
-/*    background-color: white;*/
-/*    height: 85px;*/
-/*    width: 100vh;*/
-/*    margin-top: 15px;*/
+.white-space {
+    background-color: white;
+    height: 80px;
+    width: 100%;
+    margin-top: 39px;
+}
+
+
 
 
 
