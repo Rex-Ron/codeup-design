@@ -4,6 +4,7 @@
 #logo {
     width: 105px;
     height: 105px;
+
 }
 
 h1, .nav-link {
@@ -14,24 +15,106 @@ h1, .nav-link {
     font-family: 'Anton', sans-serif;
 }
 
+/*.white-space {*/
+/*    background-color: white;*/
+/*    height: 85px;*/
+/*    width: 100vh;*/
+/*    margin-top: 15px;*/
+
+
+
+
+
 .red-circle {
     background: #E6563B;
-    border: solid;
-    border-color: white;
-    border-width: thick;
+
+}
+
+.orange-circle {
+    background-color: #DEA03D;
+}
+
+.green-circle {
+    background-color: #7CB06C;
+}
+
+.blue-circle {
+    background-color: #00ABA9;
+}
+
+
+
+.circle-div {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.circle {
+    border: 8px solid white;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin: 10px auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 150px;
+    font-family: 'Anton', sans-serif;
+    color: white;
+    font-size: 1.5em;
+}
+
+.select {
+    text-align: center;
+    margin-top: 7em;
+    font-family: 'Abel', sans-serif;
+}
+
+.foot-img img {
     height: 150px;
-    width: 150px;
-}
-
-.red-circle-div {
-
-    height: ;
-    width: ;
+    width: 300px;
+    margin-top: 3em;
 
 }
 
+.foot-img {
+    text-align: center;
+
+}
+
+.foot-circle {
+    display: flex;
+    justify-content: space-around;
+
+
+
+}
+
+.foot-icons {
+    display: flex;
+    margin-right: 1em;
+    margin-bottom: 2em;
+}
+
+.sm-circle {
+    border-radius: 50%;
+    height: 18px;
+    width: 18px;
+    margin: 5px;
+    font-family: 'Anton', sans-serif;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.featured-project {
+    margin-left: 1em;
+    font-family: 'Abel', sans-serif;
+    font-size: 12px;
+
+}
 
