@@ -1,6 +1,11 @@
 * {
+    /*background-color: lightgray;*/
+}
+
+body {
     background-color: lightgray;
 }
+
 #logo {
     background-color: transparent;
     width: 150px;
@@ -9,6 +14,16 @@
     position: absolute;
     top: 8px;
     left: 115px;
+}
+
+.nav2 {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-item  {
+
 }
 
 .codeup-design-row {
