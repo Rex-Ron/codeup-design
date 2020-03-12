@@ -3,7 +3,6 @@
     padding: 0;
 }
 
-
 body {
     background-color: lightgray;
 }
@@ -44,12 +43,6 @@ h1, .nav-link {
     width: 100%;
     margin-top: 39px;
 }
-
-
-
-
-
-
 
 .red-circle {
     background: #E6563B;
@@ -146,16 +139,23 @@ h1, .nav-link {
 @media screen and (min-width: 576px) {
 
     #logo {
-        left: 300px;
+        left: 285px;
     }
 
     .white-space {
+        width: 100vh;
+        display: flex;
+    }
+
+    .container {
 
     }
+
 
     .left-logo {
 
     }
+
 
 
 
