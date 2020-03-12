@@ -147,10 +147,54 @@ h1, .nav-link {
         display: flex;
     }
 
+    div.foot-img img {
+        height: 125px;
+        width: 200px;
+        margin-top: 3em;
+
+    }
+
+    .circle {
+        height: 115px;
+        width: 115px;
+        border: 5px solid white;
+    }
+
+    .circle-div {
+        display: grid;
+        grid-template-columns: 5% 1fr 1fr 1fr 1fr 5%;
+        grid-template-rows: 1fr;
+    }
+
+    .red-circle {
+        grid-area: 1 / 2 / 2 / 3;
+    }
+
+    .orange-circle {
+        grid-area: 1 / 3 / 2 / 4;
+    }
+
+    hr {
+        border: 1px solid darkgray;
+        width: 450px;
+
+    }
+
+    .line {
+        display: flex;
+        justify-content: center;
+    }
     .container {
 
     }
 
+    .blue-circle {
+        grid-area: 1 / 5 / 2 / 6;
+    }
+
+    .green-circle {
+        grid-area: 1 / 4 / 2 / 5;
+    }
 
     .left-logo {
 
