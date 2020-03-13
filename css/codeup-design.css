@@ -1,3 +1,5 @@
+
+
 * {
     margin: 0;
     padding: 0;
@@ -230,22 +232,7 @@ hr {
         height: 100px;
     }
 
-    .red-circle {
 
-
-    }
-
-    .orange-circle {
-
-    }
-
-    .green-circle {
-
-    }
-    .blue-circle {
-
-
-    }
 
     .circle-div {
         grid-template-columns: 15% 1fr 1fr 1fr 1fr 15%;
@@ -257,6 +244,7 @@ hr {
         justify-content: flex-end;
 
     }
+
     .main-nav {
         background-color: white;
         width: 100%;
@@ -267,60 +255,60 @@ hr {
         width: 100%;
     }
 
-}
 
-nav, .main-nav1 {
-    background-color: white;
-    height: 75px;
-    align-items: center;
-    justify-content: flex-end;
-    margin-top: 50px;
+    nav, .main-nav1 {
+        background-color: white;
+        height: 75px;
+        align-items: center;
+        justify-content: flex-end;
+        margin-top: 50px;
 
-}
+    }
 
-.main-nav1 a {
-    color: #3b4248;
-    text-decoration: none;
-    font-size: 15px;
-    font-family: 'Abel', sans-serif;
-    font-weight: lighter;
+    .main-nav1 a {
+        color: #3b4248;
+        text-decoration: none;
+        font-size: 15px;
+        font-family: 'Abel', sans-serif;
+        font-weight: lighter;
 
-}
+    }
 
-.codeup-design {
-    font-family: 'Abel', sans-serif;
-    padding-right: 85px;
+    .codeup-design {
+        font-family: 'Abel', sans-serif;
+        padding-right: 85px;
 
-}
+    }
 
-.codeup-design-row {
-    display: none;
-}
+    .codeup-design-row {
+        display: none;
+    }
 
-.logo-row {
-    display: none;
-}
+    .logo-row {
+        display: none;
+    }
 
-.vd-wd {
-    margin-top: 30px;
-}
+    .vd-wd {
+        margin-top: 30px;
+    }
 
-.select {
-    display: flex;
-    justify-content: flex-start;
-    padding-left: 80px;
-    padding-top: 20px;
-}
+    .select {
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 80px;
+        padding-top: 20px;
+    }
 
-.foot-img1 {
-    padding-top: 0px;
-}
+    .foot-img1 {
+        padding-top: 0px;
+    }
 
-#logo {
-    top: 20px;
-    left: 10px
-}
+    #logo {
+        top: 20px;
+        left: 10px
+    }
 
-.new-stuff {
-    width: 20%;
+    .new-stuff {
+        width: 20%;
+    }
 }
